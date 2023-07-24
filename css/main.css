@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > header {
+    background-color: grey;
+    color: white;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.esportes {
+    background-color: #e6ffe5;
+    width: 100%;
+}
+
+.container-esportes {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-esportes a {
+    background-color: green;
+    color: white;
+    padding: 8px 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.economia {
+    background-color: #fff965;
+    width: 100%;
+}
+
+.container-economia {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-economia a {
+    background-color: #fb9e1c;
+    color: white;
+    padding: 8px 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.entreterimento {
+    background-color: #ffb8ed;
+    width: 100%;
+}
+
+.container-entreterimento {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-entreterimento a {
+    background-color: #ff00bf;
+    color: white;
+    padding: 8px 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.tecnologia {
+    background-color: #ffabab;
+    width: 100%;
+}
+
+.container-tecnologia {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-tecnologia a {
+    background-color: #ff0000;
+    color: white;
+    padding: 8px 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+section h2 {
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 80%;
+}
+
+article {
+    width: 30%;
+    min-width: 330px;
+    margin-bottom: 30px;
+}
+
+article img {
+    max-width: 100%;
+    display: block;
+}
+article h3 {
+    font-size: 24px;
+}
+
+article p,
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article header,
+h3,
+p {
+    margin-bottom: 10px;
+}
