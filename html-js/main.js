@@ -43,7 +43,7 @@ function mensagemValidacaoFuncao(campoA, campoB) {
 form.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    validaFormularioFuncao(campoA, campoB);
+    validaFormularioFuncao(campoA, campoA);
     mensagemValidacaoFuncao(campoA, campoB);
     campoA.value = "";
     campoB.value = "";
