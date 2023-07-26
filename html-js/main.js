@@ -12,9 +12,11 @@ function validaFormularioFuncao(campoA, campoB) {
     );
 
     if (campoB.value > campoA.value) {
+        console.log("B > A");
         inputValidacaoCampoA.style.border = "2px solid green";
         inputValidacaoCampoB.style.border = "2px solid green";
     } else {
+        console.log("A > B");
         inputValidacaoCampoA.style.border = "2px solid red";
         inputValidacaoCampoB.style.border = "2px solid red";
     }
@@ -43,4 +45,6 @@ form.addEventListener("submit", function (e) {
 
     validaFormularioFuncao(campoA, campoB);
     mensagemValidacaoFuncao(campoA, campoB);
+    campoA.value = "";
+    campoB.value = "";
 });
