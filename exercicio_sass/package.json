@@ -1,8 +1,0 @@
-{
-    "dependencies": {
-        "sass": "^1.64.2"
-    },
-    "scripts": {
-        "sass": "sass source/main.scss build/main.css --watch"
-    }
-}
